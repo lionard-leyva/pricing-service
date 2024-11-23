@@ -1,37 +1,58 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Compiled class file
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Log file
+*.log
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# Ignore IntelliJ IDEA project files
+.idea/
 *.iml
-*.ipr
+
+# Ignore SonarLint files
+.idea/sonarlint/
+
+# Ignore build outputs
+build/
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Ignore maven/gradle wrapper logs
+*.log
 
-### VS Code ###
-.vscode/
+# Ignore application configs (optionally if you don't want to commit dev config files)
+application-dev.yml
+
+# Ignore other files as per your environment
+hs_err_pid*
+replay_pid*
+
+# Ignore Gradle build files
+.gradle/
+build/
+
+# Ignore gradle-wrapper properties and binaries
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore Gradle Project-specific files
+*.lock
+*.bat
+*.bin
